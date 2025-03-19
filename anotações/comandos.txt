@@ -1,0 +1,3 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+</style>

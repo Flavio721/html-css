@@ -1,0 +1,19 @@
+Ex001: introdução
+
+Ex002: Paragrafos
+
+Ex003: Imagens
+
+Ex004: Favicon
+
+Ex005: Hierarquia de títulos
+
+Ex006: Diferença entre HTML 4 e HTML 5 e também alguns códigos "extintos"
+
+Ex007: Formatação de textos
+
+Ex008: Outras formatações de textos
+
+Ex009: Listas
+
+Ex010: Links e Âncoras

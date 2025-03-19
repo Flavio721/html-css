@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+:root{
+    --fonte-titulo: "Boldonse", sans-serif
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(90deg, #4E7348, #95A658, #F2E7C4, #D97941, #D9663D);
+}
+header{
+    background-color: #4E7348;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+header > h1{
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 3em;
+    padding-bottom: 40px;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px, 10px;
+    box-shadow: 5px 5px 15px rgb(4, 99, 4);
+    margin: auto;
+    align-items: center;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+.uk{
+    font-family: roboto;
+    background-image: linear-gradient(to right, rgb(255, 104, 104), white, rgb(255, 104, 104));
+    font-size: 2em;
+    border-radius: 10px;
+}
+.usa{
+    font-family: roboto;
+    background-image: linear-gradient(to right, rgb(0, 162, 255), rgb(255, 70, 70), white);
+    border-radius: 10px;
+    font-size: 2em;
+}
+li{
+    padding: 10px;
+}
+a{
+    color: #D9663D;
+}
+img{
+    padding: 10px 38%;
+    
+}
