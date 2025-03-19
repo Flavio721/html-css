@@ -115,6 +115,7 @@ span{
 article > h1{
     color: var(--cor5);
     font-family: var(--fonte-idroid);
+    text-align: center;
 }
 article > h2{
     background-image: linear-gradient(to right, #c4f998, var(--cor0), white);
