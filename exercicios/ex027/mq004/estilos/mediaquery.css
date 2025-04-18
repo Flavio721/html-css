@@ -16,6 +16,9 @@ Grandes telas - acima de 1200px
         background-image: url(../imagens/back-print.jpg); /*Desnecessário */
         font-family: 'Courier New', Courier, monospace;
     }
+    main{
+        border: 2px solid black;
+    }
     main > h1{
         text-shadow: none;
         color: black;
