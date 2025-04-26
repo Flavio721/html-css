@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px) {
+    main > section > h1, div > h1{
+        font-size: 1.8em;
+    }
+    section.flex{
+        display: flex;
+        flex-flow: column;
+    }
+    section.flex > div{
+        align-self: flex-end;
+    }
+    section.flex > img{
+        align-self: flex-start;
+    }
+}

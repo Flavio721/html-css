@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 20px;
+    height: 150px;
+}
+
+main{
+    background-color: lightgray;
+    padding: 10px;
+}
+main > section > h1, div > h1{
+    font-size: 2.2em;
+}
+main > section.flex{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+section.flex > div{
+    width: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+section.flex > img{
+    padding-right: 20px;
+    width: 500px;
+}
+
+main > section.flex2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap-reverse;
+    gap: 30px;
+}
+section.flex2 > div.div2{
+    width: 600px;
+    display: flex;
+    flex-flow: column wrap;
+}
+section.flex2 > iframe{
+    padding-right: 20px;
+}
