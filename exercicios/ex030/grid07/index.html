@@ -15,34 +15,21 @@
         border: 3px solid red;
         text-align: center;
         padding: 10px;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-column-start: 1;
-        grid-column-end: 5;
+        grid-area: 1 / 1 / 2 / 5; /* grid-row-start / grid-column-start / grid-row-end / grid-column-end */
     }
     .itemb{
         border: 3px solid red;
         text-align: center;
         padding: 10px;
-        grid-row-start: 2; /* Linha onde o item vai começar */
-        grid-row-end: 4; /* Linha onde o item vai terminar */
-        grid-column-start: 1; /* Coluna onde o item vai começar */
-        grid-column-end: 3; /* Coluna onde o item vai terminar */
-        /* Ou seja, ocupa 2 colunas */
-        /* E ocupa 3 linhas (2, 3, 4)*/
+        grid-area: 2 / 1 / 4 / 3;
     }
     .itemc{
         border: 3px solid red;
         text-align: center;
         padding: 10px;
-        grid-row-start: 2; /*ShortHand: grid-row: 2 / 4;*/
-        grid-row-end: 4;
-        grid-column-start: 3; /*ShortHand: grid-column: 3 / 5;*/
-        grid-column-end: 5;
-        /* Span = Quantas linhas/colunas irá expandir */
-        /* Exemplo: grid-column: 3 / span 2 */
-        /* Ou seja, expande 2 colunas */
+        grid-area: 2 / 3 / 4 / 5;
     }
+    /* Simplificação máxima! */
     </style>
 </head>
 <body>

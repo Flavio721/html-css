@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 2</title>
+        <style>
+        div.container{
+            border: 3px solid blue;
+            height: 250px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            gap: 5px;
+            /* Configuração nova
+            Align = Cima para baixo
+            Justify = Esquerda para direita */
+             align-items: stretch; /* Valor padrão */
+             justify-content: stretch; /* Valor padrão */
+             
+             /*                     COMANDOS
+             Start: Cola o item no começo (em cima = align/na esquerda: justify) Center: Centraliza o item dentro da grade dele
+             End: Cola o item no final (contrário do start*/
+
+             align-content: stretch; /* Valor padrão */
+             justify-content: stretch; /* Valor padrão */
+
+             /*                     COMANDOS
+             space-between: Mesmo espaço entre os itens
+             space-evenly: Mesmo espaço em cima ou na esquerda, em baixo ou na direita e entre os itens
+             space-around: Mesmo espaço ao redor dos itens*/
+        }
+        div.item{
+            border: 3px solid red;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>

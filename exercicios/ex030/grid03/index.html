@@ -7,10 +7,11 @@
     <style>
         .container{
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-auto-rows: auto; /* ShortHand */
+            grid-template: 100px 100px 100px / auto auto auto; /*ShortHand para rows / columns */
             gap: 10px;
             border: 3px solid blue;
+            place-items: stretch center; /*ShortHand para align e justify itens */
+            place-content: start end; /*ShortHand para align e justify content */
         }
         .item{
             border: 3px solid red;
