@@ -1,0 +1,16 @@
+<html>
+<head>
+<base> teste 5 </head>
+<title>Teste</title>
+<address>outro teste</address>]
+ </head>
+ <body>
+<h1>teste</h1>
+<h2>Flavio</h2>
+<h3>Inocencio</h3>
+<h4>Ramos</h4>
+<h5>Coelho</h5>
+<h6>29/03/2010</h6>
+ </body>
+</html>
+    

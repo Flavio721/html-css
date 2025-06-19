@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Kaushan+Script&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+:root{
+    --fonte-titulo: "Boldonse", sans-serif;
+    --fonte-destaque: "Roboto Condensed", sans-serif;
+    --cor1: #375741;
+    --cor2: #1F3326;
+    --cor3: #D2C569;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--cor1);
+    color: #D2C569;
+    text-align: center;
+    padding: 40px;
+}
+header > h1{
+    padding: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: var(--fonte-titulo);
+}
+header > p{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+nav{
+    background-color: var(--cor1);
+    padding: 10px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px 10px 10px;
+    font-size: 1.2em;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+.menu:hover{
+    background-color: #D2C569;
+    padding: 10px;
+}
+main{
+    padding: 0px 10px;
+    background-color: #D2C569;
+}
+article{
+    padding: 10px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+article > h1{
+    padding: 20px;
+    font-size: 2.5em;
+    font-family: var(--fonte-destaque);
+    color: white;
+    background-color: #375741;
+    border-radius: 10px;
+    text-align: center;
+}
+strong{
+    color: darkgreen;
+}
+.data{
+    color: #D2C569;
+}
+article> h2{
+    padding: 20px;
+    font-size: 2em;
+    font-family: var(--fonte-destaque);
+    color: green;
+}
+.topo{
+    background-color: #375741;
+    color: white;
+}
+td.fora{
+    background-color: #D2C569;
+    color: rgb(255, 255, 255);
+}
+td.casa{
+    background-color: #1F3326;
+    color: white;
+}
+li{
+    padding: 10px;
+}
+.jogadores{
+    text-decoration: none;
+    color: green;
+}
+h3{
+    padding: 10px;
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    color: #D2C569;
+}
+.momentos{
+    text-decoration: none;
+    color: #D2C569;
+}
+p{
+    padding: 10px;
+    text-align: justify;
+}
+.fora{
+    color: red;
+    font-weight: bold;
+}
+.provavel{
+    color: #efd50e;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #1F3326;
+}
+.nome{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo{
+    padding: 10px;
+    margin: auto;
+}
+.jogador{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
