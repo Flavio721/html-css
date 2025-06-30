@@ -1,0 +1,13 @@
+Modelos do bootstrap tops
+
+Botão
+Carousel
+Card
+Dropdown (Precisa do script em js que eles disponibilizam)
+Modal
+Navbar
+Offcanvas
+Pagination
+Placeholders
+Scrollspy
+Toasts
